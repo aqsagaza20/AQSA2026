@@ -1,0 +1,34 @@
+{
+  "name": "medical-education-platform",
+  "version": "1.0.0",
+  "description": "منصة تعليمية طبية متكاملة PWA",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "node server/index.js"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.0",
+    "firebase": "^9.17.1",
+    "axios": "^1.3.0",
+    "react-query": "^3.39.0",
+    "zustand": "^4.3.0",
+    "react-icons": "^4.7.1",
+    "framer-motion": "^9.0.0",
+    "react-pdf": "^6.2.0",
+    "react-player": "^2.11.0",
+    "i18next": "^22.4.0",
+    "react-i18next": "^12.1.0",
+    "chart.js": "^4.2.0",
+    "react-chartjs-2": "^5.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^3.1.0",
+    "vite": "^4.1.0",
+    "vite-plugin-pwa": "^0.14.0"
+  }
+}
